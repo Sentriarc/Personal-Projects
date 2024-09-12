@@ -6,17 +6,19 @@ function generateRandomNumber() {
     const BOT = Math.floor(Math.random() * 3) + 1;
 
     return BOT;
+    console.log(BOT);
 }
 
 function playGame() {
     let playerInput = prompt("Rock, paper, or scissors?");
     let UPPER_CASE = playerInput.toUpperCase();
 
-    // console.log(UPPER_CASE);
+    console.log(UPPER_CASE);
 }
 
-// function startGame() {
+function startGame() {
+    playGame();
 
-// }
+}
 
-playGame();
+startGame();
