@@ -15,4 +15,4 @@ PLANNER
 - Declare function called startGame()
     - Print the winner of that match
     - Declare for-loop for a "best out of three"
-# Personal-Projects
+
