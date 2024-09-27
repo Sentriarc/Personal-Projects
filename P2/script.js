@@ -1,8 +1,7 @@
-let hamBtn;
-hamBtn = document.querySelector('.ham-btn');
-let menu = document.querySelector('.open-menu');
-const openHamBtn = hamBtn.addEventListener('click', openMenu);
-const closeHamBtn = hamBtn.addEventListener('click', closeMenu);
+let hamBtn = document.getElementsByClassName('ham-btn');
+let menu = document.getElementsByClassName('open-menu');
+let openHamBtn = hamBtn.addEventListener('click', openMenu());
+let closeHamBtn = hamBtn.addEventListener('click', closeMenu());
 
 function openMenu() {
     if (openHamBtn = true) {
