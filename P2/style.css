@@ -13,6 +13,7 @@ body {
     height: 5rem;
     gap: 0.5rem;
     cursor: pointer;
+    margin: 1rem;
 }
 
 .line-1, .line-2, .line-3 {
@@ -23,6 +24,7 @@ body {
 }
 
 .open-menu {
+    display: none;
     width: 5rem;
     height: 7rem;
     padding: 4rem;
