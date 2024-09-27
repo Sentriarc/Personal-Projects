@@ -1,6 +1,9 @@
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: flex-end;
+    background-color: darkblue;
 }
 
 .ham-btn {
@@ -16,5 +19,25 @@ body {
     height: 0.5rem;
     width: 4rem;
     border: 2px solid black;
-    background-color: black;
+    background-color: white;
+}
+
+.open-menu {
+    width: 5rem;
+    height: 7rem;
+    padding: 4rem;
+    background-color: rgba(173, 216, 230, 0.5)
+}
+
+.open-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.open-menu li {
+    list-style: none;
+    color: white;
 }
