@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     xBtn.addEventListener('click', () => {
-        if (xBtn.style.display === 'block') {
-            menu.style.display === 'none';
-        }
+        menu.style.display = 'none';
+        xBtn.style.display = 'none';
+        hamBtn.style.display = 'flex';
     });
 });
