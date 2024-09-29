@@ -24,4 +24,6 @@ body {
     width: 50rem;
     background-color: white;
     border: 1px solid brown;
+    justify-content: center;
+    align-items: center;
 }
