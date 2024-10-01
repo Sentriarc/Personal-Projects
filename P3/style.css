@@ -8,6 +8,11 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: beige;
+    margin: 0;
+}
+
+.title {
+    margin: 4rem;
 }
 
 .boxes ul {
@@ -24,6 +29,15 @@ body {
     width: 50rem;
     background-color: white;
     border: 1px solid brown;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.text {
+    width: 20rem;
+}
+
+.plus-btn {
+    cursor: pointer;
+    scale: 200%;
 }
